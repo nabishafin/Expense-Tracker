@@ -5,9 +5,8 @@ const Navbar = () => {
   return (
     <nav>
       <div className="flex max-w-7xl items-center bg-[#F9FAFB] w-full justify-between py-1 mt-2 border px-4 rounded-md mx-auto">
-        {/* <!-- Logo --> */}
         <div>
-          <img src={logo} className="h-14" />
+          <h1 className="font-semibold">Tracker-BD</h1>
         </div>
 
         {/* <!-- Menu --> */}
